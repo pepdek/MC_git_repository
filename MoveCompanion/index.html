@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>MoveCompanion.com | Landing Page</title>
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,800,900" rel="stylesheet">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+        
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+    
+	<body>
+		<header>
+            <div class="bkg-img">
+        <!-- LOGO -->
+			<section class="logo-holder">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-xs-12">
+                            <a href="index.html"><img src="./images/logo@2x.png" alt="logo"></a>
+						</div>
+					</div>
+				</div>
+			</section>
+        <!-- HERO & FORM-->
+
+                    <section class="hero">
+                        <div class="container">
+                            <div class="row">
+                            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1">
+                                <div class="hero-text"> 
+                                    <h2>Save on Your Next Move</h2>
+                                    <h6>MoveCompanion.com can save you up to 60% on your move, and it's free to use! Start here by filling out the form.</h6>
+                                </div>
+                            </div>
+                            <!-- Form -->
+                            <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-12">
+                            <div class="hero-form">
+                                    <h1>Start saving here! Fill out your details to compare costs.</h1>
+
+                                      <form role="form" method="post" action="process.php" id="contactform">
+                                                <div class="row">
+                                                    <div class="form-group form-group-lg col-lg-6 col-xs-6">
+                                                        <label class="col-form-label" for="fromZip">From zip code</label>
+                                                        <input type="text" class="form-control input-sm" id="fromZip" name="fromZip" autofocus>
+                                                    </div>
+                                                    <div class="form-group form-group-lg col-lg-6 col-xs-6">
+                                                        <label class="col-form-label" for="toZip">To zip code</label>
+                                                        <input type="text" class="form-control input-sm" id="toZip" name="toZip">
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <label class="col-form-label date-label" for="month">Date of move</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group form-group-lg col-lg-4 col-xs-5">
+                                                        <select class="form-control input-sm" name="month" id="month">
+                                                            <option value="1">Jan</option>
+                                                            <option value="2">Feb</option>
+                                                            <option value="3">Mar</option>
+                                                            <option value="4">Apr</option>
+                                                            <option value="5">May</option>
+                                                            <option value="6">Jun</option>
+                                                            <option value="7">Jul</option>
+                                                            <option value="8">Aug</option>
+                                                            <option value="9" selected>Sep</option>
+                                                            <option value="10">Oct</option>
+                                                            <option value="11">Nov</option>
+                                                            <option value="12">Dec</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group form-group-lg col-lg-4 col-xs-3">
+                                                        <label class="sr-only" for="day">Day of Month</label>
+                                                        <select class="form-control input-sm" name="day" id="day">
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                            <option value="6">6</option>
+                                                            <option value="7">7</option>
+                                                            <option value="8">8</option>
+                                                            <option value="9">9</option>
+                                                            <option value="10">10</option>
+                                                            <option value="11">11</option>
+                                                            <option value="12">12</option>
+                                                            <option value="13">13</option>
+                                                            <option value="14">14</option>
+                                                            <option value="15" selected>15</option>
+                                                            <option value="16">16</option>
+                                                            <option value="17">17</option>
+                                                            <option value="18">18</option>
+                                                            <option value="19">19</option>
+                                                            <option value="20">20</option>
+                                                            <option value="21">21</option>
+                                                            <option value="22">22</option>
+                                                            <option value="23">23</option>
+                                                            <option value="24">24</option>
+                                                            <option value="25">25</option>
+                                                            <option value="26">26</option>
+                                                            <option value="27">27</option>
+                                                            <option value="28">28</option>
+                                                            <option value="29">29</option>
+                                                            <option value="30">30</option>
+                                                            <option value="31">31</option>
+                                                            </select>
+                                                    </div>
+                                                    <div class="form-group form-group-lg col-lg-4 col-xs-4">
+                                                        <label for="year" class="sr-only">Year</label>
+                                                        <select class="form-control input-sm" id="year">
+                                                            <option value="2017" selected>2017</option>
+                                                            <option value="2018">2018</option>
+                                                            <option value="2019">2019</option>
+                                                            <option value="2020">2020</option>
+                                                            <option value="2021">2021</option>
+                                                            <option value="2022">2022</option>
+                                                            <option value="2023">2023</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="form-group form-group-lg col-lg-12">
+                                                        <label for="moveSize" class="col-form-label" >Estimated move size</label>
+                                                        <select class="form-control" id="moveSize">
+                                                            <option value="1 bedroom">1 bedroom</option>
+                                                            <option value="2 bedroom" selected>2 bedroom</option>
+                                                            <option value="3 bedroom">3 bedroom</option>
+                                                            <option value="4 bedroom">4 bedroom</option>
+                                                            <option value="over 5 bedrooms">+5 bedroom</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="form-group form-group-lg col-lg-12">
+                                                        <label class="col-form-label" for="carShipping">Is car shipping needed?</label>
+                                                        <br>
+                                                        <div class="btn-group" data-toggle="buttons" id="carShipping">
+                                                            <label class="btn btn-success">
+                                                            <input type="radio" name="options" id="option1" autocomplete="off"> Yes
+                                                          </label>
+                                                          <label class="btn btn-success active" aria-pressed="true">
+                                                            <input type="radio" name="options" id="option2" autocomplete="off" checked> No
+                                                          </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                         
+                                                <div class="row">
+                                                    <div class="form-group form-group-lg col-lg-6 col-xs-6">
+                                                        <label class="col-form-label" for="firstName">First Name</label>
+                                                        <input type="text" class="form-control" id="firstName" name="firstName">
+                                                    </div>
+                                                    <div class="form-group form-group-lg col-lg-6 col-xs-6">
+                                                        <label class="col-form-label" for="lastName">Last Name</label>
+                                                        <input type="text" class="form-control" id="lastName" name="lastName">
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="form-group form-group-lg col-lg-12">
+                                                        <label for="tel-input" class="col-form-label">Phone number</label>
+                                                        <input type="tel" id="tel-input" class="form-control" id="tel-input" name="tel-input">
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="form-group form-group-lg col-lg-12">
+                                                        <label class="col-form-label" for="email">Email</label>
+                                                        <input type="email" class="form-control" id="email" name="email">
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 agree-copy">
+                                                        <p>By submitting your info, you agree to our <a href="/privacy.html">Privacy Policy</a> and <a href="/termsy.html">Terms of Use</a>.</p>
+                                                        <p class="form-message"></p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                                                        <button type="submit" class="btn btn-primary btn-lg btn-block">Get my quotes!</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+
+                            </div>
+                        </div>
+                    </div>
+                        </div> <!-- Hero Container End -->
+                    </section> <!-- Hero Section End -->
+             </div>
+             <!-- BODY COPY -->
+
+                    <div class="container">
+				<div class="row copy">
+					<div class="col-lg-10 col-md-10 col-md-offset-1 col-sm-12">
+						<div class="row support-copy">
+                            <p>Efficient, wallet-friendly moves are easier than they seem. If you need a full-service moving company, we recommend comparing quotes from at least 3 companies before making your decision. Prices can vary greatly! You can compare quotes by filling out our form above with some basic information about your move.</p>
+                        </div>
+                        <div class="row copy-title">
+							<h3>Helpful tips and tricks for your move</h3>
+						</div>
+                        <div class="row body-copy">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+                            <br>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+            <!-- FOOTER -->
+        
+        <footer class="footer">
+			<div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-md-10 col-md-offset-1 col-sm-12">
+                        <hr>
+                    </div>
+                </div>
+				<div class="row">
+					<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+						<img src="./images/logogray.png" align="left" alt="Move Comparison logo">
+                        <div class="footer-nav">
+                            <p align="right">
+                                <a href="privacy.html">Privacy Policy</a> 
+                                <a href="terms.html">Terms of Use</a>
+                            </p>
+                        </div>
+                    </div>
+				</div>
+                <div class="row">
+					<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 copyright">
+						<p>&#169; 2017 MoveCompanion.com, All Rights Reserved.</p>
+					</div>
+				</div>
+                <div class="row">
+					<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 disclaimer">
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+        </header> <!-- Header End -->
+        
+       
+        
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Bootstrap Validator-->
+		<script type="text/javascript" src="js/bootstrapValidator.min.js"></script>
+		<script src="js/custom.js" ></script>
+	</body>
+</html>

@@ -1,0 +1,740 @@
+/* 
+Created By : Pep Dekker
+Created For : MoveCompanion.com
+*/
+
+
+/* -- CSS Reset -- */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: transparent;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -- End Reset -- */
+
+
+/* -- General Styles -- */
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto', sans-serif;
+}
+h3, h4, h5 {
+	color: #494949;
+}
+h5, h6, p, form {
+	font-family: 'Roboto', sans-serif;
+}
+h2 {
+	font-size: 30px;
+	color: #202020;
+	font-weight: 700;
+	line-height: 30px;
+}
+h3 {
+	font-size: 26px;
+	color: #494949;
+}
+h4 {
+	font-size: 23px;
+	font-weight: 700;
+	line-height: 30px;
+	padding: 8px 0;
+}
+h5 {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 300;
+	padding: 4px 0;
+}
+h6 {
+	font-size: 18px;
+	line-height: 26px;
+}
+p {
+	font-size: 15px;
+	color: #777777;
+	line-height: 26px;
+}
+.btn-primary .btn-success .copy-list .list {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.container {
+	background-color: transparent !important;
+}
+
+/* Link Style */
+
+a:link {
+	color: #fff;
+	text-decoration: underline;
+}
+
+/* -- Logo Holder Styles -- */
+
+.logo-holder img {
+	width: 25%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: transparent;
+}
+.logo-holder h2 {
+	font-size: 26px;
+	font-weight: 700;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+}
+.logo-holder h2 a {
+	color: #fff;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: solid 2px #fff;
+}
+.logo-holder h2 span, .logo-holder h4 span {
+	color: #eeeeee;
+}
+.logo-holder h4 {
+	color: #fff;
+	float: right;
+	font-weight: 300;
+	line-height: 50px;
+	padding: 0;
+}
+
+/* -- Header Section Styles -- */
+
+header {
+    color: #fff;
+    margin-bottom: 10px; 
+}
+header-int {
+	color: #fff;
+	margin-bottom: 10px;
+}
+.bkg-img{
+	background: url('../images/movecompanion-splash.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: bottom left;
+	margin-bottom: 10px;    
+}
+
+/* -- Hero Section Lead Gen - Styles -- */
+
+.hero {
+	position: relative;
+	right: 0;
+	left: 0;
+	padding-bottom: 5px;
+}
+.hero-text {
+	margin-top: 120px;
+}
+.hero-text h1 {
+	font-size: 66px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 70px;
+}
+.hero-text h1 .big-title {
+	font-size: 118px;
+	color: #eeeeee;
+	font-weight: 900;
+}
+.hero-text h2 {
+	color: #fff;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 40px;
+	padding-top: 120px;
+	text-align: left;
+}
+.hero-text h6 {
+	color: #fff;
+	font-weight: 100;
+	margin-top: 30px;
+	text-align: left;
+}
+.hero-form {
+	background-color: #eeeeee;
+	text-align: center;
+	padding: 40px;
+	border-radius: 5px;
+	margin-top: 40px;
+	box-shadow: 0 2px 2px -2px gray !important;
+}
+.hero-form h1 {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: center;
+	color: #00b16a;
+	margin-left: -20px !important;
+	margin-right: -20px !important;
+}
+.hero-form h6 {
+	color: #202020;
+	font-weight: 300;
+}
+.hero-form form {
+	margin-top: 30px;
+	font-weight: 300;
+	text-align: left;
+	border-color: transparent;
+}
+.hero-form .form-control select, .form-control input {
+	border-top: 1px solid #a9a9a9 important!;
+	border-bottom: 0px solid #a9a9a9 important!;
+	border-right: 0px solid #a9a9a9 important!;
+	border-left: 0px solid #a9a9a9 important!;
+	color: #202020;
+	font-size: 14px !important;
+	display: block;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border: 2px solid #fff;
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+.hero-form form input, select {
+	font-size: 14px !important;
+	font-weight: 400;
+	padding-right: 8px !important;
+	padding-left: 8px !important;
+}
+.hero-form form input:hover, .hero-form form input:focus {
+	border: 1px solid #666;
+}
+.form-control::-webkit-input-placeholder {
+	color: #333333;
+	opacity: 1;
+}
+.form-control:-moz-placeholder {
+	color: #333333;
+}
+.form-control::-moz-placeholder {
+	color: #333333;
+}
+.form-control:-ms-input-placeholder {
+	color: #333333;
+}
+.col-form-label {
+	font-size: 12px;
+	color: #9f9f9f;
+	text-align: left important!;
+	padding-bottom: 3px;
+}
+.btn-primary {
+	font-size: 24px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 0 2px 2px -2px gray;
+	background-color: #f92e2e;
+	border: none;
+	border-color: transparent;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+	background-color: #ff5555;
+}
+.btn-primary:inactive {
+	background-color: #f92e2e !important;
+}
+.btn-warning {
+	font-size: 24px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 0 2px 2px -2px gray;
+	background-color: #999;
+	border: none;
+	border-color: transparent;
+}
+.btn-warning:hover, .btn-warning:active, .btn-warning:focus {
+	background-color: #00b16a !important;
+}
+//
+.btn-success, .btn-success:hover, .btn-success:active, .btn-success:focus {
+	background-color: #00b16a !important;
+}
+.btn-success {
+	margin-right: 15px !important;
+	margin-top: 2px !important;
+	border-radius: 2px !important;
+	font-size: 12px;
+	width: 70px;
+	color: white;
+	font-weight: 400;
+	background-color: #999;
+	border-color: transparent;
+}
+.btn-success-int, .btn-success-int:hover, .btn-success-int:active, .btn-success-int:focus {
+	background-color: #00b16a !important;
+}
+.btn-success-int {
+	margin-right: 15px !important;
+	margin-top: 2px !important;
+	border-radius: 2px !important;
+	font-size: 12px;
+	width: 70px;
+	color: white;
+	font-weight: 400;
+	background-color: #999;
+	border-color: transparent;
+}
+.hero-form>p {
+	color: #202020;
+	font-weight: 300;
+	padding-top: 10px;
+	font-size: 14px;
+}
+.form-message {
+	color: white;
+	display: none;
+}
+.form-msg {
+	color: #202020;
+}
+.form-msg-error {
+	color: red;
+}
+.agree-copy p {
+	font-size: 12px;
+	line-height: 16px;
+	color: #aaa;
+	margin-bottom: 20px;
+}
+.agree-copy a:link {
+	text-decoration: underline;
+	color: #aaa;
+}
+.date-label {
+	padding-left: 15px;
+}
+
+/* -- Advertisement Styles -- */
+
+.advertisement {
+	padding: 20px 0px;
+}
+
+/* -- Call to Action Styles -- */
+
+.call-to-action p {
+	font-size: 14px !important;
+	color: black !important;
+	line-height: 20px !important;
+	padding-bottom: 20px !important;
+	font-weight: 500 !important;
+}
+.btn-cta a:link {
+	color: white !important;
+}
+.btn-cta {
+	font-size: 12px;
+	font-weight: 400;
+	width: 100px;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 0 2px 2px -2px gray;
+	background-color: #00b16a;
+	color: white !important;
+	text-decoration: none !important;
+	border: none;
+	border-color: transparent;
+}
+.btn-cta:hover, .btn-cta:active {
+	background-color: #00b16a;
+}
+
+/* -- Copy Styles -- */
+
+.copy {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	padding-left: 15px;
+}
+.copy-int {
+	text-align: left;
+	margin-top: 20px;
+	padding-left: 15px;
+}
+.copy-int h1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #00b16a;
+	font-weight: 900;
+	font-size: 30px;
+}
+.copy-int h3 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #00b16a;
+	font-weight: 900;
+	font-size: 30px;
+}
+.copy-int a:link {
+	color: #00b16a;
+	text-decoration: underline;
+}
+.copy-title h3 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #00b16a;
+	font-weight: 900;
+	font-size: 30px;
+}
+.support-copy p {
+	padding-top: 40px;
+	font-size: 20px;
+	font-weight: 300;
+    padding-right: 10px;
+}
+.body-copy p {
+	padding-top: 10px;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 300;
+    padding-right: 10px;
+}
+.body-copy-int p {
+	padding-top: 10px;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 300;
+    padding-right: 10px;
+}
+.copy-list .list {
+	background-color: #f4f4f4;
+	padding: 70px 20px;
+	margin-top: 30px;
+}
+.copy-list .list:hover {
+	background-color: #202020;
+}
+.copy-list .list:hover h4, .copy-list .list:hover p {
+	color: #fff;
+}
+.copy-list .list img {
+	margin-bottom: 8px;
+	height: 44px;
+}
+
+/* -- Footer Hero Styles -- */
+
+.footer-hero {
+	text-align: center;
+	color: #fff;
+	padding-top: 80px;
+	padding-bottom: 90px;
+}
+.footer-hero h2 {
+	font-size: 40px;
+	line-height: 60px;
+	color: #fff;
+}
+.footer-hero .btn-primary {
+	font-size: 40px;
+	font-weight: 400;
+	border: none;
+	color: #202020;
+	line-height: 18px;
+	padding-top: 34px;
+	padding-bottom: 34px;
+	margin-top: 36px;
+	font-family: 'Roboto', sans-serif;
+	background-image: -webkit-linear-gradient(top, #ffc600, #F2B900);
+	background-image: -moz-linear-gradient(top, #ffc600, #F2B900);
+	background-image: -ms-linear-gradient(top, #ffc600, #F2B900);
+	background-image: -ms-linear-gradient(top, #ffc600, #F2B900);
+	background-image: -o-linear-gradient(top, #ffc600, #F2B900);
+	background-image: linear-gradient(to bottom, #ffc600, #F2B900);
+}
+.footer-hero .btn-primary:hover, .footer-hero .btn-primary:active {
+	color: #F2B900;
+	background-image: -webkit-linear-gradient(top, #000, #202020);
+	background-image: -moz-linear-gradient(top, #000, #202020);
+	background-image: -ms-linear-gradient(top, #000, #202020);
+	background-image: -o-linear-gradient(top, #000, #202020);
+	background-image: linear-gradient(to bottom, #000, #202020);
+}
+
+/* -- Footer Styles -- */
+
+.footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footer img {
+	width: 50%;
+	align-content: left !important;
+}
+.footer {
+	padding-left: 6px;
+	padding-right: 6px;
+	font-size: 12px;
+	text-align: left;
+}
+footer img {
+	text-align: left;
+	padding-bottom: 20px;
+	width: 25% !important;
+}
+.footer-nav a, .footer-nav p {
+	line-height: 24px;
+	color: #999;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+.footer-nav a:hover {
+	color: #666;
+	font-style: underline;
+}
+.copyright p {
+	font-size: 12px;
+	color: black;
+	line-height: 18px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+.disclaimer p {
+	font-size: 12px;
+	color: black;
+	line-height: 18px;
+	text-align: left;
+}
+
+/*------------------------------
+--------Interior Styles-------
+------------------------------*/
+
+.logo-holder-nav {
+	background-color: #00b16a;
+}
+
+/*------------------------------
+--------Responsive Styles-------
+------------------------------*/
+
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+	.hero-text {
+		text-align: left;
+		margin-top: 10px;
+		padding-top: 10px !important;
+	}
+	.hero-text h1 {
+		font-size: 54px;
+	}
+	.hero-text h1 .big-title {
+		font-size: 95px;
+	}
+	.hero-text h2 {
+		font-size: 34px;
+		padding-top: 120px !important;
+		text-align: center;
+	}
+	.hero-form h1 {
+		margin-left: -20px !important;
+		margin-right: -20px !important;
+	}
+	.btn-primary {
+		font-size: 20px;
+		font-weight: 700;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.logo-holder img {
+		width: 40%;
+	}
+	.hero {
+		top: 0px;
+		transform: translateY(0);
+	}
+	.btn-primary {
+		font-size: 20px;
+	}
+	.hero-text {
+		text-align: left;
+		margin-top: 10px !important;
+	}
+	.hero-text h2 {
+		font-size: 40px;
+		padding-top: 15px !important;
+		text-align: center;
+	}
+	.hero-text h6 {
+		padding: 0 70px;
+		text-align: center;
+	}
+	.hero-form {
+		margin-top: 40px;
+	}
+	.footer-hero h2 {
+		font-size: 36px;
+		line-height: 40px;
+		padding-bottom: 20px;
+	}
+	.footer img {
+		width: 35%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.h2 {
+		text-align: center;
+	}
+	.hero-text h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.logo-holder img {
+		width: 40%;
+	}
+	.hero-text h1 .big-title {
+		font-size: 66px;
+		font-weight: 900;
+	}
+	.hero-text h2 {
+		font-size: 35px;
+		line-height: 40px;
+		padding-top: 10px;
+		text-align: center;
+	}
+	.hero-text h6 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.footer {
+		text-align: center;
+	}
+	.footer-nav {
+		float: none;
+	}
+	.footer img {
+		width: 40% !important;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.logo-holder img {
+		width: 45%;
+	}
+	.hero-text h1 {
+		font-size: 26px;
+		line-height: 30px;
+	}
+	.hero-text h1 .big-title {
+		font-size: 88px;
+		line-height: 36px;
+		margin-top: 15px;
+	}
+	.hero-text h2 {
+		font-size: 30px;
+		line-height: 35px;
+		padding-top: 8px;
+		text-align: center;
+	}
+	.hero-text {
+		margin-top: 15px;
+	}
+	.hero-form h1 {
+		padding-left: 0;
+		padding-right: 0;
+		text-align: left;
+		font-size: 20px;
+		padding-left: 10px;
+		font-weight: 400;
+	}
+	.copy-int {
+		padding-left: 0;
+	}
+	.footer-nav a, .footer-nav p {
+		line-height: 14px;
+		font-size: 10px;
+		padding-left: 8px;
+		padding-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 415px) {
+	header {
+		background: white;
+		color: #000;
+	}
+	.logo-holder {
+		width: 100%;
+		background: #00b16a;
+	}
+	.logo-holder img {
+		width: 60%;
+	}
+	.hero {
+		width: 100%;
+		background: #eee;
+		box-shadow: 0 2px 2px -2px gray !important;
+		border-radius: 0px;
+	}
+	.hero-text {
+		display: none;
+	}
+	.hero-form {
+		padding: 0;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		box-shadow: none !important;
+	}
+	.hero-form h1 {
+		margin-left: -15px !important;
+		margin-right: -15px !important;
+		text-align: left;
+		font-size: 20px;
+		font-weight: 400;
+	}
+	.btn-primary {
+		font-size: 20px;
+		font-weight: 700;
+	}
+	.footer-hero .btn-primary, .offer .btn-primary {
+		font-size: 30px;
+	}
+	.advertisement {
+		align-content: center;
+	}
+}
